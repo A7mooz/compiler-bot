@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"target": "ES2022",
+		"module": "Node16",
+		"rootDir": "src",
+		"baseUrl": "src",
+		"paths": {
+			"#handler": ["handler/index.js"],
+			"#util": ["util/index.js"],
+			"#types/*": ["handler/types/*"]
+		},
+		"resolveJsonModule": true,
+		"outDir": "dist",
+		"esModuleInterop": true,
+		"verbatimModuleSyntax": true,
+		"forceConsistentCasingInFileNames": true,
+		"noImplicitAny": true,
+		"strict": true,
+		"strictNullChecks": true,
+		"skipLibCheck": true,
+		"useDefineForClassFields": false
+	},
+	"include": ["src"]
+}
